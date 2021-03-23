@@ -1,21 +1,23 @@
-# Supporting the preservation of legacy source code.
+# MAGMA Workbench
 
-Instantiating this template creates a workbench to support the acquisition of legacy source code, according to [SWHAP](https://www.softwareheritage.org/swhap/), the [Software Heritage](https://www.softwareheritage.org/) Acquisition Process defined by the [SWHAP\@Pisa](
-    #TODO:
-) project.
+### This [SWHAPPE](https://github.com/Unipisa/SWHAPPE) workbench is for the acquisition of the source code of MAGMA, il codice sulla macchina virtuale A5 17431 del CNUCE è stato sviluppato da L. Bertini ([ora ordinario a Ingegneria a Pisa e delegato del Rettore per Spin-off, Start Up e Brevetti](https://unimap.unipi.it/cercapersone/dettaglio.php?ri=4242&template=dettaglio3.tpl)) per il calcolo di tralicci per elettrodotti, quando lavorava per la CMF (Finsider).
 
-The workbench comes with the predefined folders that are used in the supported process. Namely:
+-------------------
 
-- Folder [raw materials](./raw_materials) is for the original materials, as they have been found or submitted.
+This workbench comes with a few folders to support the process.
 
-- Folder [browsable source](./browsable_source) is for a browsable version of the source code. Source files, with the right extension, have to be accessible through the GitHub web interface, e.g., archives should be decompressed, code should be transcribed if provided by images, etc.
+Folder [raw materials](./raw_materials) is for the original materials, as they have been found or submitted.
 
-- Folder [source](./source) is for the curated revision of the source code, as a base for the reconstruction of the development history as a git repository.
+Folder [browsable source](./browsable_source) is for a browsable version of the source code. Source files, with right extention, have to be accessible through the GitHub web interface, e.g., archives should be decompressed, immages should be trascibed, etc.
 
-- Folder [metadata](/.metadata) holds various files with meta information (catalogue, actors, journal, tags) to be updated throughout the process. 
+Folder [source](./source) is for the curated revision of the source code, as a base for the recontruction of the development history as a git repository, i.e., a folder for each major version of the code.
+
+Folder [metadata](./metadata) holds various files with meta information used throughout the process. 
 
 - Folder [additional materials](./additional_materials) is for materials originated during the recovery process to document it or to shed new light on the recovered software project.
 
-Please note that this file need be **replaced** in the instantiated workbench.
+Folder [.swhap](./.swhap) holds the templates of the README files of the various repositories created in the process.
 
-Please look at the [SWHAPPE repository](https://github.com/Unipisa/SWHAPPE/blob/master/README.md) and to the [guidelines](https://github.com/SoftwareHeritage/swhapguide/blob/master/SWHAP%40Pisa.pdf)  for more details. 
+Please look at the [SWHAPPE repository](https://github.com/Unipisa/SWHAPPE/blob/master/README.md) and to the [guidelines](https://github.com/SoftwareHeritage/swhapguide/blob/master/SWHAP%40Pisa.pdf)  for more details.
+
+-------------------
