@@ -1,7 +1,6 @@
 # MAGMA Workbench
 
-### This [SWHAPPE](https://github.com/Unipisa/SWHAPPE) workbench is for the acquisition of the source code of MAGMA, il codice sulla macchina virtuale A5 17431 del CNUCE è stato sviluppato da L. Bertini ([ora ordinario a Ingegneria a Pisa e delegato del Rettore per Spin-off, Start Up e Brevetti](https://unimap.unipi.it/cercapersone/dettaglio.php?ri=4242&template=dettaglio3.tpl)) per il calcolo di tralicci per elettrodotti, quando lavorava per la CMF (Finsider).
-
+### This [SWHAPPE](https://github.com/Unipisa/SWHAPPE) workbench is for the acquisition of the source code of MAGMA
 -------------------
 
 This workbench comes with a few folders to support the process.
