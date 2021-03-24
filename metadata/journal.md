@@ -1,30 +1,16 @@
-## SWHAPPE journal.md Template
+# MAGMA Journal
 
-Here we propose a template for `journal.md` forSWHAPPE.
+* **24/03/2021** 
+  * *Items:* [source code](./browsable_source/)
+  * *Actors:* [Guido Scatena](./metadata/actors.md#guido_scatena) 
+  * *Description:* Guido Scatena creates [browsable source folder](./browsable_source/) with revised OCR results of [raw materials files](./raw_materials/).
 
-Each action on the Depository should have a corresponding record on the `journal.md` with the structure below.
+* **22/03/2021** 
+  * *Items:* [raw materials](./raw_materials/)
+  * *Actors:* [Guido Scatena](./metadata/actors.md#guido_scatena) 
+  * *Description:* Guido Scatena creates this repository  cloning the structure from the [template](https://github.com/Unipisa/SWHAP-TEMPLATE) and uploads [raw materials](./raw_materials/).
 
-Please note that:
-* Name and Surname of actors should be linked to their paragraph in [actors.md](./actors.md) file;
-* Items should be linked to the file [inside the repository](./raw_materials/);
-* We recommend to use only one of the following roles for each record: Author, Collector, Curator;
-* Dated records are from the newest to the oldest (new records written on top of the list);
-* Notes are optional.
-
-Example of Actor link:
-~~~
-[Name Surname](./actors.md#name-surname)
-~~~
-Example of Item link:
-~~~
-[Item Name](./material/example_file.zip)
-~~~
-
-
-# SW_NAME Journal
-
-* **dd/mm/yyyy** 
-  * *Items:*  [Item Name](./material/example_file.zip).
-  * *Actors:* [Name Surname](./actors.md#name-surname) (role).
-  * *Description:* Action done on the Depository.
-  * *Notes:*  Additional notes.
+* **22/03/2021** 
+  * *Items:* None
+  * *Actors:* [Carlo Montangero](./metadata/actors.md#carlo_montangero) and [Guido Scatena](./metadata/actors.md#guido_scatena) 
+  * *Description:* Carlo Montangero digitalizes FORTRAN listings and sends to Guido Scatena to start the SWHAP.
