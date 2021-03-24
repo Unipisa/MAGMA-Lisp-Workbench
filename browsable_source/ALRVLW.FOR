@@ -210,3 +210,57 @@ C
         K1 = CONSF(CONSF(AAK1,V),K2)
          CAR(K12) = R(AAK1)
          CDR(K12) = K1
+90      CDR(K11) =K1
+        GOTO 410
+C
+C           ENTRY POINT ` RVLWG ` 
+C
+        ENTRY RVLWG(V,P)
+C
+        IF (AAK.FQ.RRADIX) GOTO 221
+        IF (NREDMO.NE.0) GO TO 2
+221     P = V
+        GOTO 410
+2       IF (P/NTYPEE.EQ.REDEFT) GOTO 210
+220     K2 = P
+        IRADIX = RRADIX
+        P=CONSF(CONSF(IRADIX,K2),NIL)
+        K2=R(RRADIX)
+        P = REDEFT*NTYPEE+CONSF(CONSF(K2,P),P)
+210     K1 = MOD(P,NTYPEE)
+C
+C
+        K11=K1
+         K12=CAR(K11)
+        K1=CDR(K1)
+        K2 = K1
+        AA = AAK
+        K3 = 0
+        K4 = 0
+        FLAG = 0
+C
+C
+310     RK = CAR(CAR(K2))
+C
+C           TEST SULLA DISCENDENZA
+        IF (R(RK).GT.R(AAK).AND.S(RK).LE.S(AAK)) GO TO 311
+C
+C           SI CONTROLLA SE SIAMO SOPRA AAK
+C
+        IF (R (AAK) .EQ. R (RK)) GO TO 312
+C
+C           L` R CORRENTE PUO ESSERE MAGGIORE O MINORE DI AAK.
+C
+        IF (R(AAK).GT.R(RK)) GO TO 313
+C
+C           L` R CORRENTE E` MINORE.
+C
+314     K3 = K2
+        K2 = CDR(K2)
+        GO TO 3.10
+C
+C           HO TROVATO UN DISCENDENTE.
+C
+331     IF (FLAG.EQ. 1) GO TO 314
+C
+C           E` IL PRIMO DISCENDENTE
