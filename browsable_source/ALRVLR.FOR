@@ -53,3 +53,6 @@ C
     RETURN
 11  CAR(K12)=R(RK)
     GOTO 22
+1   ALR VLR = PUNT
+    RETURN
+    END
