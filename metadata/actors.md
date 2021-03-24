@@ -6,7 +6,7 @@
        * *Email:* <carlo@montangero.eu>
        * *Github handle:* [@CarloQMontangero](https://github.com/CarloQMontangero)
        * *Website:* <http://www.di.unipi.it/~monta/>
-  * *Roles:* Collector
+  * *Roles:* Author, Collector
 * # Guido Scatena
   * *Affiliation*
      * *Current:* [Dipartimento di Informatica](www.di.unipi.it), [Università di Pisa](www.unipi.it)
