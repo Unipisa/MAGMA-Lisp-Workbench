@@ -1,4 +1,4 @@
-# MAGMA Workbench
+# MAGMA-Lisp Workbench
 
 ### This [SWHAPPE](https://github.com/Unipisa/SWHAPPE) workbench is for the acquisition of the source code of MAGMA-Lisp, an extended Lisp interpreter for non-deterministic programming, developed at the Istituto di Scienze dell'Informazione (ISI) of the University of Pisa in the nineteen seventies.
 -------------------
