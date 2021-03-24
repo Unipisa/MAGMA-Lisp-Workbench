@@ -1,4 +1,4 @@
-# MAGMA Journal
+# MAGMA-Lisp Journal
 
 * **24/03/2021** 
   * *Items:* [source code](./browsable_source/)
