@@ -1,4 +1,4 @@
-# MAGMA Actors
+# MAGMA-Lisp Actors
 
 * # Carlo Montangero
   * *Affiliation*
