@@ -22,6 +22,6 @@ Folder [metadata](./metadata) holds various files with meta information used thr
 
 Folder [.swhap](./.swhap) holds the templates of the README files of the various repositories created in the process.
 
-Please look at the [SWHAPPE repository](https://github.com/Unipisa/SWHAPPE/blob/master/README.md) and to the [guidelines](https://github.com/SoftwareHeritage/swhapguide/blob/master/SWHAP%40Pisa.pdf)  for more details.
+Please look at the [SWHAPPE repository](https://github.com/Unipisa/SWHAPPE/blob/master/README.md) and the [guidelines](https://github.com/SoftwareHeritage/swhapguide/blob/master/SWHAP%40Pisa.pdf)  for more details.
 
 -------------------
