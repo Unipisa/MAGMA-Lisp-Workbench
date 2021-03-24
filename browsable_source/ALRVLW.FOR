@@ -264,3 +264,57 @@ C
 331     IF (FLAG.EQ. 1) GO TO 314
 C
 C           E` IL PRIMO DISCENDENTE
+C
+        K4 = K3
+        FLAG = 1
+        GO TO 314
+C
+C           HO TROVATO AAK.
+C
+312     CDR(CAR(K2)) = V
+         CAR(K12)=B(AA)
+         CDR(K12)=K2
+C
+C           CONTROLLO SE AAK HA DEI DISCENDENTI
+C
+315     IF (FLAG.EQ.0) GO TO 320
+C
+C           HA DISCENDENTI
+C
+        IF (K4.EQ.0) GO TO 316
+C
+C           IL PRIMO DISCENDENTE NON E` IL PRIMO NELLA RVL.
+C
+        CDR(K4) = K2
+        GO TO 320
+C
+C           IL PRIMO DISCENDENTE E` IL PRIMO DELLA RVL
+C
+316     K1 = K2
+        GO TO 320
+C
+C           AAK NON ESISTE.
+C
+313     IF (K3.EQ.0) GO TO 317
+C
+C           AAK NON VIENE INSERITO AL PRIMO POSTO.
+C
+        CDR(K3) = CONSF(CONSF(AA,V),K2)
+         CAR(K12)=R(AA)
+         CDR(K12)=CDR(K3)
+C
+C           SI PONE K2 UGUALE ALLA POSIZIONE DI AAK.
+C              QUINDI SI TORNA A CONTROLLARE SE AAK HA DISCENDENTI
+C
+        K2 = CDR(K3)
+        GO TO 3 15
+C
+C           AAK VIENE INSERITO IN TESTA ALLA RVL
+C
+317     K1 = CONSF(CONSF(AA,V),K1)
+        CDR(K12)=K1
+        CAR(K12)=R(AA)
+320     CDR(K11)=K1
+410     CONTINUE
+        RETURN
+        END
