@@ -1,37 +1,15 @@
-## SWHAPPE actors.md Template
+# MAGMA Actors
 
-Here we propose a template for `actors.md` for SWHAPPE.
-
-Each participant of the process should have a corresponding record on the `actors.md` with the structure below.
-
-Please note that:
-
-* Name and Surname of actors should be linked to their paragraph in [actors.md](./actors.md) file;
-* Items should be linked to the file [inside the repository](./raw_materials/);
-* We recommend to use only one of the following roles for each record: Author, Collector, Curator;
-* Current and Historical Affiliation refer to the circumstances when the software were produced and those when the Depository is build, respectively;
-* Notes are optional.
-
-Example of Actor link:
-~~~
-[Name Surname](./actors.md#name-surname)
-~~~
-Example of Item link:
-~~~
-[Item Name](./raw_materials/example_file.zip)
-~~~
-
-
-# SW_NAME Actors
-
-
-* # Name Surname
-  * *Affiliation* 
-     * *Current:* [Example Departement](www.example.com)
-       * *Email:* <surname@example.com> 
-       * *Github handle:* [@github](https://github.com/github)
-       * *Website:* <http://www.example.com/~example/>
-     * *Historical:* [Ancient Example Departement](www.ancient.example.com)
-       * *Email:* <surname@ancient.example.com> 
-  * *Roles:* Author
-  
+* # Carlo Montangero
+  * *Affiliation*
+     * *Current:* [Dipartimento di Informatica](www.di.unipi.it), [Università di Pisa](www.unipi.it)
+       * *Email:* <carlo@montangero.eu>
+       * *Github handle:* [@CarloQMontangero](https://github.com/CarloQMontangero)
+       * *Website:* <http://www.di.unipi.it/~monta/>
+  * *Roles:* Collector
+* # Guido Scatena
+  * *Affiliation*
+     * *Current:* [Dipartimento di Informatica](www.di.unipi.it), [Università di Pisa](www.unipi.it)
+       * *Email:* <guido.scatena@unipi.it>
+       * *Github handle:* [@scatenag](https://github.com/scatenag)
+  * *Roles:* Collector, Curator
