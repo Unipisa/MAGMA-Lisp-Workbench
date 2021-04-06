@@ -43,7 +43,7 @@ C
             */ NENTPO / NENTPO
 C
              COMMON
-            #/ R / C1(3) ,R(128)
+            */ R / C1(3) ,R(128)
             */ S / C2(3) ,S(128)
             */ PADRE / C3(3),PADRE(128)
             */ FIRSTS / C4(3),FIRSTS(128)
