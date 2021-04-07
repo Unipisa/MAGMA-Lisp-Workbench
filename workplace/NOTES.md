@@ -25,4 +25,9 @@
 - MRVL (89 righe), marca e aggiorna RVL (chiama MARCA).
 - RVLSC (82 righe), con tre argomenti, PR, OUT1, OUT2. Marca e aggiorna le RVL negli elementi di SCT.
 
+# Formato FORTRAN
+5 colonne label
+1 colonna eventuale continuazione
+7- codice
+end - numero scheda 
 
