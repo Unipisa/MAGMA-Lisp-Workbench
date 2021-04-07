@@ -1,6 +1,6 @@
-            SUBROUTINE MPATTF
+      SUBROUTINE MPATTF
 C
-            IMPLICIT INTEGER(A-Z)
+      IMPLICIT INTEGER(A-Z)
 C
 C
             INTEGER*2
