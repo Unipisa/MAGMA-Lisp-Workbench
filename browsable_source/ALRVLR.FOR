@@ -1,21 +1,21 @@
 C   / *****************************************************************
 C   * 
-C   *                           == LETTURA DI UN VALORE NELLA RVL ==
+C   *           == LETTURA DI UN VALORE NELLA RVL ==
 C   *
-C   *                                 PROCEDURA TIPO FUNCTION
-C   *               PARAMETRI IN EXTERNAL=
-C   *                                                   AAK = CHIAVE DI ACCESSO DA USARE.
+C   *              PROCEDURA TIPO FUNCTION
+C   *       PARAMETRI IN EXTERNAL=
+C   *                             sAAK = CHIAVE DI ACCESSO DA USARE.
 C   *
-C   *               SE TIPO DI DATO (MARCA DEL PUNT) E` = / RVLTYP
-C   *               (NON RIDEFINITO) , RITORNA ALLA ROUTINE CHIAMANTE CON
-C   *               IL VALORE CHE ERA MEMORIZZATO IN PUNT.
+C   *       SE TIPO DI DATO (MARCA DEL PUNT) E` = / RVLTYP
+C   *       (NON RIDEFINITO) , RITORNA ALLA ROUTINE CHIAMANTE CON
+C   *       IL VALORE CHE ERA MEMORIZZATO IN PUNT.
 C   *
-C   *               SE TIPO DI DATO = RVLTYP (RIDEFINITO), SCANDISCE LA RVL
-C   *               RICERCANDO IL VALORE SOTTO LA CHIAVE AAK:
-C   *               1)  SE ESSA E` PRESENTE, RITORNA IL VALORE CHE LE E`
-C   *                     ASSOCIATO.
-C   *               2)  SE NON E` PRESENTE RITORNA IL VALORE SOTTO LA
-C   *                     CHIAVE CHE E` PRIMO AVO PRESENTE DI AAK.
+C   *       SE TIPO DI DATO = RVLTYP (RIDEFINITO), SCANDISCE LA RVL
+C   *       RICERCANDO IL VALORE SOTTO LA CHIAVE AAK:
+C   *       1)  SE ESSA E` PRESENTE, RITORNA IL VALORE CHE LE E`
+C   *           ASSOCIATO.
+C   *       2)  SE NON E` PRESENTE RITORNA IL VALORE SOTTO LA
+C   *           CHIAVE CHE E` PRIMO AVO PRESENTE DI AAK.
 C   ***************************************************************** /
       INTEGER FUNCTION ALRVLR (PUNT)
       IMPLICIT INTEGER (A-Z)
