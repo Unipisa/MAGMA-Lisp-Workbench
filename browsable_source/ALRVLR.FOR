@@ -17,17 +17,17 @@ C   *                     ASSOCIATO.
 C   *               2)  SE NON E` PRESENTE RITORNA IL VALORE SOTTO LA
 C   *                     CHIAVE CHE E` PRIMO AVO PRESENTE DI AAK.
 C   ***************************************************************** /
-       INTEGER FUNCTION ALRVLR (PUNT)
-       IMPLICIT INTEGER (A-Z)
-       INTEGER*2 R,S,AAK,REDEFT
-       COMMON
-      */CAR/ V(4) , CAR(15767)
-      */CDR/ V1(4) ,CDR(15767)
-      */R/ V2(3) , R(128)
-      */S/V3(3),S(128)
-      */AAK/AAK
-      */REDEFT/REDEFT
-      */NTYPEE/ NTYPEE
+      INTEGER FUNCTION ALRVLR (PUNT)
+      IMPLICIT INTEGER (A-Z)
+      INTEGER*2 R,S,AAK,REDEFT
+      COMMON
+     */CAR/ V(4) , CAR(15767)
+     */CDR/ V1(4) ,CDR(15767)
+     */R/ V2(3) , R(128)
+     */S/V3(3),S(128)
+     */AAK/AAK
+     */REDEFT/REDEFT
+     */NTYPEE/ NTYPEE
 C
       IF (REDEFT.NE.PUNT/NTYPEE) GO TO 1
       K2 = MOD(PUNT, NTYPEE)
