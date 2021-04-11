@@ -1,15 +1,15 @@
 ## SWHAPPE catalogue.md Template
 
-Here we propose a template for catalogue<span>.md for SWHAPPE.
+Here we propose a template of catalogue<span>.md for SWHAPPE.
 
-Each Item in the `raw_materials` and `additional_materials` folders of Workbench should have a corresponding record on the `catalogue.md` with the structure below..
+Each Item in the `raw_materials` and `additional_materials` folders of the Workbench should have a corresponding record in the `catalogue.md` with the structure below.
 
 Please note that:
 * Name and Surname of actors should be linked to their paragraph in [actors.md](./actors.md) file;
 * Items should be linked to the file [inside the raw materials repository](./raw_matherials/) or [inside the additional materials repository](./additional_matherials/);
-* On the [second part of the Catalogue](./catalogue.md#SW_NAME-Catalogue-Tree) should be copied the result of the command `tree -a raw_materials additional_materials ` ;
-* *Notes:* are optional; they should contains `Additional materials.` for additional materials
-* *Warehouse:* is optional - should be used only when a physical warehouse is used to store material taken from the *origin*; .
+* The result of the command `tree -a raw_materials additional_materials ` has be copied in the [final part of the Catalogue](./catalogue.md#SW_NAME-Catalogue-Tree)  ;
+* *Notes* are optional; they should contains `Additional materials.` for additional materials
+* *Warehouse* is optional; it should be used only when a physical warehouse is in place to store physical materials from the *origin*.
 
 Example of Actor link:
 ~~~
@@ -43,4 +43,4 @@ Example of Item links:
 # SW_NAME Catalogue Tree
 
 
-result of `tree -a raw_materials additional_materials` command.
+COpy here the result of the command `tree -a raw_materials additional_materials`.
