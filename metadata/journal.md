@@ -1,5 +1,10 @@
 # MAGMA-Lisp Journal
 
+* **11/04/2021** 
+  * *Items:* [raw_materials](./raw_materials/), [workplace](./workplace/) 
+  * *Actors:* [Carlo Montangero](./metadata/actors.md#carlo_montangero) 
+  * *Description:* [Carlo Montangero](./metadata/actors.md#carlo_montangero) uploads to [raw_materials](./raw_materials/) files digitized the day before, and to [workplace](./workplace/) the cut out version for the OCR.
+  * 
 * **06/04/2021** 
   * *Items:* [raw_materials](./raw_materials/), [workplace](./workplace/) and [source code](./browsable_source/)
   * *Actors:* [Carlo Montangero](./metadata/actors.md#carlo_montangero) and [Guido Scatena](./metadata/actors.md#guido_scatena)  
