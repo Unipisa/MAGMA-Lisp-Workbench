@@ -3,7 +3,7 @@
 * **11/04/2021** 
   * *Items:* [raw_materials](./raw_materials/), [workplace](./workplace/) 
   * *Actors:* [Carlo Montangero](./metadata/actors.md#carlo_montangero) 
-  * *Description:* [Carlo Montangero](./metadata/actors.md#carlo_montangero) uploads to [raw_materials](./raw_materials/) files digitized the day before, and to [workplace](./workplace/) the cut out version for the OCR.
+  * *Description:* [Carlo Montangero](./metadata/actors.md#carlo_montangero) uploads some files that he digitized the day before into [raw_materials](./raw_materials/), and the cut out versions of the same for the OCR to [workplace](./workplace/).
   * 
 * **06/04/2021** 
   * *Items:* [raw_materials](./raw_materials/), [workplace](./workplace/) and [source code](./browsable_source/)
