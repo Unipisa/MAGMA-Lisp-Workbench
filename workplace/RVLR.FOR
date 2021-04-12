@@ -1,5 +1,5 @@
 	 INTEGER FUNCTION RVLR(KEY,PUNT)
-C
+C second attempt to realign tabs in the first rows
       IMPLICIT INTEGER(A-Z)
 	 INTEGER*2 R,S
 C
