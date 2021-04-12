@@ -1,4 +1,10 @@
-     */ UNIT / UNIT
+	INTEGER FUNCTION RVLR(KEY,PUNT)
+C
+     IMPLICIT INTEGER(A-Z)
+	INTEGER*2 R,S
+C	  
+	COMMON
+    */ UNIT / UNIT
      */ CAR / V(4),CAR(15767)
      */ CDR / B(4),CDR(15767)
      */ R / C(3),R(128)
