@@ -32,8 +32,4 @@ C
 10    RVLR = CDR(CAR(PUNT))
       PUNT = PUNTEM
       RETURN
-<<<<<<< HEAD
-	END
-=======
       END
->>>>>>> eac420a55f3b526abe1678440f1a0942a1fe1668
