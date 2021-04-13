@@ -245,7 +245,7 @@ C
 C     UNI
 C
 64    WRITE(6,1006) J,
-     * R (J), S(J),PADRE(J),CXTX(J),FIRSTS(J),FIRSTB(J),LIST(J)
+     * R(J),S(J),PADRE(J),CXTX(J),FIRSTS(J),FIRSTB(J),LIST(J)
       J = LIST(J)
       IF(J.NE.I) GO TO 64
        IF(RFLAG.EO.O) GOTO 76833
