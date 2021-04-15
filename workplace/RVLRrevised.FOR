@@ -1,3 +1,5 @@
+C     Revised to start understanding it: body at the head, exits at the bottom. Comments added.
+C
       INTEGER FUNCTION RVLR(KEY,PUNT)
 C
 C RETURNS THE VALUE IN CONTEXT KEY FROM RVL PUNT
@@ -18,6 +20,7 @@ C ARGUMENT CHECK
 C PUNT IS A PROPER POINTER
       PUNTEM = PUNT
 C PUNT SAVED TO UNDO A SIDE EFFECT?
+C
 C LOOP TO SKIP LESSER CONTEXTS
       RKEY = R(KEY)
 2     RK = CAR(CAR(PUNT))
