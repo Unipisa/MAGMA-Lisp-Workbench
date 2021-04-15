@@ -1,6 +1,4 @@
 
-// <snippet_using_and_vars>
-// <snippet_using>
 using System;
 using System.Collections.Generic;
 using Microsoft.Azure.CognitiveServices.Vision.ComputerVision;
