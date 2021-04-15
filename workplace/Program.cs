@@ -11,31 +11,23 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Threading;
 using System.Linq;
-// </snippet_using>
 
 namespace Ocr
 {
     class Program
     {
-
         // Add your Computer Vision subscription key and endpoint
-        static string subscriptionKey = "6ae8a611f52945039eddd8ad5db7d577";
+        static string subscriptionKey = "SECRET";
         static string endpoint = "https://test2guido.cognitiveservices.azure.com/";
         static string fileNameFromUrl(string hreflink) {
             string filename = Path.GetFileName(new Uri(hreflink).AbsolutePath);
             return filename;
         }
-
-        
-
         static void Main(string[] args)
-        {
-
-            
+        {            
             string[] urls = new string[] 
                 { 
-                    "https://github.com/Unipisa/MAGMA-Lisp-Workbench/raw/master/workplace/TEST.jpg"
-                    
+                    "https://github.com/Unipisa/MAGMA-Lisp-Workbench/raw/master/workplace/TEST.jpg"           
                 };
 
             ComputerVisionClient client = Authenticate(endpoint, subscriptionKey);
@@ -46,23 +38,13 @@ namespace Ocr
                 ReadFileUrlToFile(client, url, file).Wait();
             }
         }
-
-        // <snippet_auth>
-        /*
-         * AUTHENTICATE
-         * Creates a Computer Vision client used by each example.
-         */
-        public static ComputerVisionClient Authenticate(string endpoint, string key)
+	public static ComputerVisionClient Authenticate(string endpoint, string key)
         {
             ComputerVisionClient client =
               new ComputerVisionClient(new ApiKeyServiceClientCredentials(key))
               { Endpoint = endpoint };
             return client;
         }
-        // </snippet_auth>
-        /*
-         * END - Authenticate
-         */
         public static async Task ReadFileUrlToFile(ComputerVisionClient client, string urlFile, string filename)
         {
             Console.WriteLine("----------------------------------------------------------");
@@ -74,9 +56,7 @@ namespace Ocr
             // After the request, get the operation location (operation ID)
             string operationLocation = textHeaders.OperationLocation;
             Thread.Sleep(2000);
-            // </snippet_readfileurl_1>
-		
-            // <snippet_readfileurl_2>
+      
             // Retrieve the URI where the extracted text will be stored from the Operation-Location header.
             // We only need the ID and not the full URL
             const int numberOfCharsInOperationId = 36;
@@ -92,10 +72,8 @@ namespace Ocr
             }
             while ((results.Status == OperationStatusCodes.Running ||
                 results.Status == OperationStatusCodes.NotStarted));
-            // </snippet_readfileurl_2>
-
-            // <snippet_readfileurl_3>
-            // Display the found text.
+      
+            // Display/Write to file the found text.
             System.Text.StringBuilder sb = new System.Text.StringBuilder(); 
             var textUrlFileResults = results.AnalyzeResult.ReadResults;
             foreach (ReadResult page in textUrlFileResults)
@@ -108,12 +86,5 @@ namespace Ocr
             }
             File.WriteAllText(filename, sb.ToString());
         }
-        // </snippet_readfileurl_3>
-
-        /*
-         * END - READ FILE - URL
-         */
-
-
     }
 }
