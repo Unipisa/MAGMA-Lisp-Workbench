@@ -20,7 +20,7 @@ The first description of the working of this code is found in \[TR B73-1\].
 
 This code is written in FORTRAN for the IBM VM370 system of CNUCE, and is dated 10/15/81. Likely this is the last version of the interpreter.
 
-The first contributors to the code were [C. Montangero]() and [G. Pacini]() (see [TR B73-1, gen. 1973]). [P. Asirelli]() was initially involved (see \[TR C72-5\]). [F. Turini]() joined them as part of his thesis work in Scienze dell'Informazione in early 1973. 
+The first contributors to the code were [C. Montangero]() and [G. Pacini]() (see [TR B73-1, gen. 1973]). [P. Asirelli]() was initially involved (see \[TR C72-5\]). [F. Turini]() joined them as part of his thesis work in Scienze dell'Informazione in early 1973. M. Simi, as part of her thesis work in Scienze dell'Informazione, ... in 1974.
 
 ## References
 
