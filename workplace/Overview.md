@@ -12,26 +12,26 @@ MAGMA-Lisp was used to implement the KL-ONE core of KL-Conc, simulator of the co
 
 The source code collected in this repository is part of the interpreter of MAGMA-Lisp. The selection is intended to show the implementation of 
 1. the primitives to manage the contex tree, and
-1. the implementation of the mechanisms to manage efficiently the information that are context sensitive.
+2. the implementation of the mechanisms to manage the context sensitive information efficiently.
+
+The first description of the working of this code is found in \[TR B73-1\].
 
 ## What is the history of this source code?
 
 This code is written in FORTRAN for the IBM VM370 system of CNUCE, and is dated 10/15/81. Likely this is the last version of the interpreter.
 
-The first contributors to the code were [C. Montangero]() and [G. Pacini]() (see [TR B73-1, gen. 1973]). [P. Asirelli]() was initially involved [TR C72-5]. [F. Turini]() joined them as part of his thesis work in Scienze dell'Informazione in early 1973. 
+The first contributors to the code were [C. Montangero]() and [G. Pacini]() (see [TR B73-1, gen. 1973]). [P. Asirelli]() was initially involved (see \[TR C72-5\]). [F. Turini]() joined them as part of his thesis work in Scienze dell'Informazione in early 1973. 
 
 ## References
 
 IJCAI4 - C. Montangero, G. Pacini and F. Turini. Magma-Lisp: a "machine language" for Artificial Intelligence. Proc. 4th Int. J. Conf. on Artificial Intelligence, Tbilisi, September 1975, pp. 556-561.
 
-ActaInformatica - C. Montangero, G. Pacini, M. Simi, and F. Turini, Information Management in Context Trees. Acta Informatica 10 (1978) pp 85-94.
+ActaInformatica - C. Montangero, G. Pacini, M. Simi, and F. Turini, Information Management in Context Trees. Acta Informatica 10, pp 85-94, 1978.
 
-TR C72-5 - Asirelli et al., nov. 1972
+TR C72-5 - P. Asirelli, C. Montangero, G. Pacini. Implementazione del nucleo di un sistema LISP orientato verso l'elaborazione di modelli semantici. Technical Note TR C72-5, I.E.I.-CNR, Pisa, nov. 1972. In Italian.
 
-Asirelli , P. , C . Lami , C . Montangero , 
-G. Pacini , M . Simi , and F . Turin i 
-"MAGMA-Lisp Referenc e Manual" , 
-Technica l Not e C75-13 , I.E.I.-CNR , 
-Pis a , 1975 .
+P. Asirelli, C. Lami, C. Montangero, G. Pacini, M. Simi, and F. Turini. "MAGMA-Lisp Reference Manual", Technical Note C75-13, I.E.I.-CNR, Pisa, 1975.
 
-IJCAI8 - KL-Conc: A. Cappelli, L. Moretti, and C. Vinchesi. A Language for Interacting With Si-Nets. Proc. 8th Int. J. Conf. on Artificial Intelligence, Karlsruhe, 1983, pp. 333-336. https://www.ijcai.org/proceedings/1983-1/Papers/073.pdf.
+IJCAI8 - A. Cappelli, L. Moretti, and C. Vinchesi. A Language for Interacting With Si-Nets. Proc. 8th Int. J. Conf. on Artificial Intelligence, Karlsruhe, 1983, pp. 333-336. https://www.ijcai.org/proceedings/1983-1/Papers/073.pdf.
+
+TR B73-1 - C. Montangero and Pacini, G. An extended Lisp System for complex control structure programming. Technical note B73-1, I.E.I.-CNR, Pisa, Jan. 1973.
