@@ -28,4 +28,10 @@ ActaInformatica - C. Montangero, G. Pacini, M. Simi, and F. Turini, Information 
 
 TR C72-5 - Asirelli et al., nov. 1972
 
+Asirelli , P. , C . Lami , C . Montangero , 
+G. Pacini , M . Simi , and F . Turin i 
+"MAGMA-Lisp Referenc e Manual" , 
+Technica l Not e C75-13 , I.E.I.-CNR , 
+Pis a , 1975 .
+
 IJCAI8 - KL-Conc: A. Cappelli, L. Moretti, and C. Vinchesi. A Language for Interacting With Si-Nets. Proc. 8th Int. J. Conf. on Artificial Intelligence, Karlsruhe, 1983, pp. 333-336. https://www.ijcai.org/proceedings/1983-1/Papers/073.pdf.
