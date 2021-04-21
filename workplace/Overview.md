@@ -28,7 +28,7 @@ IJCAI4 - C. Montangero, G. Pacini and F. Turini. Magma-Lisp: a "machine language
 
 ActaInformatica - C. Montangero, G. Pacini, M. Simi, and F. Turini, Information Management in Context Trees. Acta Informatica 10, pp 85-94, 1978.
 
-<a id="TR_C72-5">[[TR C72-5](#TR_C72-5)]</a>] - P. Asirelli, C. Montangero, G. Pacini. Implementazione del nucleo di un sistema LISP orientato verso l'elaborazione di modelli semantici. Technical Note TR C72-5, I.E.I.-CNR, Pisa, nov. 1972. In Italian.
+<a id="TR_C72-5">[[TR C72-5](#TR_C72-5)]</a> - P. Asirelli, C. Montangero, G. Pacini. Implementazione del nucleo di un sistema LISP orientato verso l'elaborazione di modelli semantici. Technical Note TR C72-5, I.E.I.-CNR, Pisa, nov. 1972. In Italian.
 
 P. Asirelli, C. Lami, C. Montangero, G. Pacini, M. Simi, and F. Turini. "MAGMA-Lisp Reference Manual", Technical Note C75-13, I.E.I.-CNR, Pisa, 1975.
 
