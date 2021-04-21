@@ -20,7 +20,7 @@ The first description of the working of this code is found in \[TR B73-1\].
 
 This code is written in FORTRAN for the IBM VM370 system of CNUCE, and is dated 10/15/81. Likely this is the last version of the interpreter.
 
-The first contributors to the code were [C. Montangero]() and [G. Pacini]() (see [TR B73-1, gen. 1973]). [P. Asirelli]() was initially involved (see \[TR C72-5\]). [F. Turini]() joined them as part of his thesis work in Scienze dell'Informazione in early 1973. M. Simi, as part of her thesis work in Scienze dell'Informazione, ... in 1974.
+The first contributors to the code were [C. Montangero]() and [G. Pacini]() (see [TR B73-1, gen. 1973]). [P. Asirelli]() was initially involved (see [[TR C72-5]](#TR C72-5) \[TR C72-5\]). [F. Turini]() joined them as part of his thesis work in Scienze dell'Informazione in early 1973. M. Simi, as part of her thesis work in Scienze dell'Informazione, ... in 1974.
 
 ## References
 
@@ -28,7 +28,7 @@ IJCAI4 - C. Montangero, G. Pacini and F. Turini. Magma-Lisp: a "machine language
 
 ActaInformatica - C. Montangero, G. Pacini, M. Simi, and F. Turini, Information Management in Context Trees. Acta Informatica 10, pp 85-94, 1978.
 
-TR C72-5 - P. Asirelli, C. Montangero, G. Pacini. Implementazione del nucleo di un sistema LISP orientato verso l'elaborazione di modelli semantici. Technical Note TR C72-5, I.E.I.-CNR, Pisa, nov. 1972. In Italian.
+<a id="TR C72-5">[TR C72-5]</a> - P. Asirelli, C. Montangero, G. Pacini. Implementazione del nucleo di un sistema LISP orientato verso l'elaborazione di modelli semantici. Technical Note TR C72-5, I.E.I.-CNR, Pisa, nov. 1972. In Italian.
 
 P. Asirelli, C. Lami, C. Montangero, G. Pacini, M. Simi, and F. Turini. "MAGMA-Lisp Reference Manual", Technical Note C75-13, I.E.I.-CNR, Pisa, 1975.
 
