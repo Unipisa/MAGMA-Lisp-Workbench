@@ -1,6 +1,4 @@
-150
-KGBC
--
-561
-RETURN
-END
+C
+150   KGBC = 1
+561   RETURN
+      END
