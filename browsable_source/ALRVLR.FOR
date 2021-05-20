@@ -43,7 +43,7 @@ C
       GO TO 2
 3     IF (RAAK.EQ.R(RK)) GO TO 10
       SAAK=S(AAK)
-      IF (SAAK.LE.S(RK)) GO TO 11
+4     IF (SAAK.LE.S(RK)) GO TO 11
       K2 = CDR(K2)
       RK = CAR(CAR(K2))
       GO TO 4
