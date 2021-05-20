@@ -1,6 +1,0 @@
-150
-KGBC
--
-561
-RETURN
-END
