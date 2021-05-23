@@ -198,14 +198,14 @@ C
      *(CBLOCK(4),LISTAR(1)),
      *(CBLOCK(4),BLINK( 1)),
      *(ZSPAZ,NBLANK)
-      DATA ZNILLL/205000000/,ZNTYPE/2010000007,ZBASE/200800000/
-      DATA MASK 3B / ZOOFFFFFF /,MASK4B / ZFFOOFFFF /
-      DATA MASK5B /ZFFFFOOFF /,MASK6B / ZFFFFFFOO /
-      DATA MASK 7B / 2000000FF
+      DATA ZNILLL/Z05000000/,ZNTYPE/Z01000000/,ZBASE/Z00800000/
+      DATA MASK3B / ZOOFFFFFF /, MASK4B / ZFFOOFFFF /
+      DATA MASK5B /ZFFFFOOFF /, MASK6B / ZFFFFFFOO /
+      DATA MASK7B / Z000000FF /
       DATA UNO/1/
 C     DATA
-c    *DATA1/.(LAM','BDA(',')(PR','INT(','APPL','Y(RE','AD ''',
-C    *'INPU'.'T)(R','EAD ','''INP','UT))','''OUT','PUT>'/,
+c    *DATA1/'(LAM','BDA(',')(PR','INT(','APPL','Y(RE','AD ''',
+C    *'INPU','T)(R','EAD ','''INP','UT))','''OUT','PUT>'/,
 C    *DATA1/*(LAM','BDA(',')(PR','INT(','APPL','Y(RE','AD)(',
 C    *'READ','>   '/,
 C    *DATA2/(LAM','BDA(','X Y ','Z)<P','UTD<','CAR(','SETO',' Y(R',
@@ -217,3 +217,112 @@ C    *'UOTE',' LIS','PX> '/,
 C    *DATA4/'(LAM','BDA(','$$$$','$$$X',')($$','EVAL','$$ $',
 C    *'$$$$','$$X>'/
       DATA NBLANK/'        '/
+C
+c     NOMI DI ATOMI
+C
+      B = 0
+      MMFLAG = 0
+C
+      ECHOGC = 1
+      ZNIL = ZNILLL
+      ISW1=0
+      OSW1=0
+C  **** AZZERAMENTO CONTROLLO - INIZ. ASIZE, BSIZE, CSIZE.
+      ASIZE=642*6
+      ASIZE=ASIZE*2
+      BSIZE=1536*3
+       BSIZE=BSIZE* 2
+      CSIZE=1536*4
+       CSIZE=CSIZE*2
+C  ******
+      DO 2346 I=1,ASIZE
+2346  ABLOCK(I)=0
+      DO 2347 I=1,BSIZE
+2347  BBLOCK(I)=0
+      DO 2348 I=1,CSIZE
+2348  CBLOCK(I)=0
+C ***************** NOME DELL'ATOMO $ERROR$$ *******
+C
+C     TIPI
+C
+      LISTT =  0
+      BASEFT =  1
+      COMMAT =  2
+      NLAMBD =  3
+      NNAMBD =  4
+      ATOMT =  5
+      NAPPID =  6
+      CXTT =  7
+      COMPT =  12
+      ARRAYT =  13
+      REDEFT = 31
+      SNUM = 9
+      LNUM = 11
+      TUPLE = 32
+      CLASS = 33
+      BAG = 34
+      STR = 30
+c
+C     COSTANTI VARIE
+C
+      RUNO = 256
+      FLAG = 65536
+      UNNO = 65536
+      NTYPEE = ZNTYPE
+      ATOMT1 = 5*NTYPEE
+      NATOML = 6*NTYPEE
+      UNNO2 = UNNO/2
+      ALMODE = 0
+      NREDMO = 0
+C
+C     MARCHE
+      COMMAM = COMMAT*NTYPEE
+      BASEFM = BASEFT*NTYPEE
+      STRC = STR*NTYPEE
+C
+C     MECCANISMO DEI CONTESTI.
+C
+      DO 2 I=1,128
+      ALIST(I) = -1
+      R(I) = 0
+      S(I) = 0
+      CXTX(I) = 0
+      PADRE(I) = 0
+      FIRSTS(I) = 0
+      FIRSTB(I) = 0
+      LIST(I) = I+1
+2     CONTINUE
+      LIST(128) = -1
+      LIB = 1
+      R(1) = 1
+      S(1) = 1
+      CXTX(1) = 1
+      CXT(1) = 1
+      KEY(1) = 1
+      DO 200 I=2,256
+      CXT(I)=0
+200   KEY(I)=0
+      ACXT = 1
+      CXTC = 1
+      CONTAP = 1
+      AAK = 1
+C *******
+      NUMCXT = 1
+C *******
+      RADIX = 1
+      RRADIX = 1
+C
+C     NUMERI
+C
+      BASE = ZBASE
+      EXES = BASE+SNUM*NTYPEE
+C      INIZIALIZZAZIONE NPRINA
+      PRIN0=NBLANK
+C
+C XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+C PER AUMENTARE LA LUNGHEZZA DEGLI ATOMI
+C BASTA PORRE :   ATMLUN = 32
+C                 ATN = 4
+C E AUMENTARE LA DIMENSIONE DI NPRINA
+C PORTANDOLA DA 6143 A 8191.
+C XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
