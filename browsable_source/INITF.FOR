@@ -28,7 +28,7 @@ C     */ CBLOCK / V3(3),CBLOCK(4096)
 C     */CBLOCK/ V3(3),CBLOCK(8192)
      */CBLOCK/V3(3),CBLOCK(12288)
      */ FLA / FLA
-     */ FLB FLB
+     */ FLB / FLB
      */ FLC / FLC
      */ NAPPOI / NAPPOI
      */ BPOINT / BPOINT
@@ -171,8 +171,7 @@ C
 C
      */ ECHOGC / ECHOGC
 C STAT
-C STAT
-      COMMON /CONCON/ CONCON
+C STAT    COMMON /CONCON/ CONCON
 C
       DIMENSION
 C    *DATA1(9),DATA4(9),DATA2( 20),DATA3(20),
@@ -182,15 +181,15 @@ C    *DATA1(14),DATA4(9),DATA2(20),DATA3(20),
      *VALORE(40 96),INF(4096),LISTAR(4096),BLINK(4096)
 C
       EQUIVALENCE
-     *( ABLOCK(1),FUN(1)).
-     *( ABLOCK(2),RETP(1)),
+     *(ABLOCK(1),FUN(1)).
+     *(ABLOCK(2),RETP(1)),
      *(ABLOCK(3),CP(1)),
-     *( ABLOCK(4),BLP( 1)),
+     *(ABLOCK(4),BLP( 1)),
      *(ABLOCK(5),SEGNO( 1)),
      *(ABLOCK(6),ABP(1)),
-     *( BBLOCK(1),BIND(1)),
+     *(BBLOCK(1),BIND(1)),
      *(BBLOCK(2),VAR( 1)),
-     *( BBLOCK(3),BBP(1)),
+     *(BBLOCK(3),BBP(1)),
      *(CBLOCK(1),SONBRO(1)),
      *(CBLOCK(2),NREENT(1)),
      *(CBLOCK(3),VALORE(1)),
