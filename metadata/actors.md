@@ -7,7 +7,7 @@
        * *Github handle:* [@CarloQMontangero](https://github.com/CarloQMontangero)
        * *Website:* <http://www.di.unipi.it/~monta/>
      * *Historical:* ISI - Istituto di scienza dell'Informazione, [Università di Pisa](www.unipi.it) (now [Dipartimento di Informatica](www.di.unipi.it)), and IEI - Istituto di Elaborazione dell'Informazione del CNR (now [ISTI - Istituto di Scienza e Tecnologie dell'Informazione](https://it.wikipedia.org/wiki/ISTI))
-  * *Roles:* Author, Collector
+  * *Roles:* Author, Collector, Curator
 * # Guido Scatena
   * *Affiliation*
      * *Current:* [Dipartimento di Informatica](www.di.unipi.it), [Università di Pisa](www.unipi.it)
