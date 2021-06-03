@@ -26,4 +26,4 @@
 * **22/03/2021** 
   * *Items:* None
   * *Actors:* [Carlo Montangero](./metadata/actors.md#carlo_montangero) and [Guido Scatena](./metadata/actors.md#guido_scatena) 
-  * *Description:* Carlo Montangero digitalizes FORTRAN listings and sends to Guido Scatena to start the SWHAP.
+  * *Description:* Carlo Montangero digitalizes FORTRAN listings and sends to Guido Scatena to start the SWHAP, in order to test the changes to the process done to comply with the requests from ISTI about [TAUmus](???). 
