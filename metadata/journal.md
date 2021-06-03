@@ -3,7 +3,7 @@
 * **12/04/2021 to 02/06/2021** 
   * *Items:* [raw_materials](./raw_materials/), [workplace](./workplace/) 
   * *Actors:* [Guido Scatena](./metadata/actors.md#guido_scatena), [Carlo Montangero](./metadata/actors.md#carlo_montangero) 
-  * *Description:* [Guido Scatena](./metadata/actors.md#guido_scatena) puts in the [workplace folder](./workplace/) intermediate results OCR process of the newly added [raw materials files](./raw_materials/). [Carlo Montangero](./metadata/actors.md#carlo_montangero) uploads more .png files into [raw_materials](./raw_materials/) - completion of INITF and garbage collection related files.
+  * *Description:* [Guido Scatena](./metadata/actors.md#guido_scatena) puts in the [workplace folder](./workplace/) intermediate results OCR process of the newly added [raw materials files](./raw_materials/). BOth of them contribute .FOR file to the browsable source folder. [Carlo Montangero](./metadata/actors.md#carlo_montangero) uploads more .png files into [raw_materials](./raw_materials/) - completion of INITF and garbage collection related files.
 * **11/04/2021** 
   * *Items:* [raw_materials](./raw_materials/), [workplace](./workplace/) 
   * *Actors:* [Carlo Montangero](./metadata/actors.md#carlo_montangero) 
