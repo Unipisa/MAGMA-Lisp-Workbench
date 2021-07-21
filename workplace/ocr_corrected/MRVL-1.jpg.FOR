@@ -17,7 +17,7 @@ C
      */NIL/NIL
       DATA M1/Z80000000/
       DATA M2/Z7FFFFFFF/
-      IF(CAR(PR).GE.0) GO TO 100
+      IF(CAR(PR).GE.0) GOTO 100
       WRITE(6,101)
 101   FORMAT(' SYSTEM ERROR : MRVL')
       CALL HLT
@@ -26,12 +26,12 @@ C
       Q=PR
       TRVL=CDR(PR)
       I=1
-3     IF(CAR(TRVL).GE.0) GO TO 102
+3     IF(CAR(TRVL).GE.0) GOTO 102
       WRITE (6,101)
       CALL HLT
 102     K=CAR(CAR(TRVL))
-      IF(CXTX(K).LT.0) GO TO 5
-1     IF(LIFE(I).EQ.K) GO TO 20
+      IF(CXTX(K).LT.0) GOTO 5
+1     IF(LIFE(I).EQ.K) GOTO 20
       I=I+1
       GOTO 1
 20    K2=MOD(CDR(CAR(TRVL)),NTYPEE)
@@ -44,12 +44,12 @@ C
 42    VALUE(K2)=IOR(VALUE(K2),M1)
       GOTO 2
 43    CAR(K2)=IOR(CAR(K2),M1)
-2     IF(I.EQ.I1) GO TO 4
+2     IF(I.EQ.I1) GOTO 4
       I=I+1
-8     IP(CDR(TRVL).EQ.NIL) GO TO 80
+8     IP(CDR(TRVL).EQ.NIL) GOTO 80
       Q=TRVL
       TRVL=CDR(TRVL)
       GOTO 3
 4     CDR(TRVL)=NIL
       GOTO 80
-5     IF(R(LIFE(I)).LT.R(K)) GO TO 11
+5     IF(R(LIFE(I)).LT.R(K)) GOTO 11
