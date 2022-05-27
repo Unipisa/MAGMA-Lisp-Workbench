@@ -2,7 +2,7 @@
 
 MAGMA-Lisp is an extension of Lisp proposed to program the sophisticated techniques used in AI systems to find the solution(s) of a search problem. The search space is structured as a tree, whose nodes are _choice points_.
 
-MAGMA-Lisp allows associatiing each branch of the search tree to a conceptually indipendent computation environment (_context_), so that each alternative can be explored in any order and with no conflicts with the others: control can be suspended in any context and resumed in another, and state modifications are local to each context. This dynamic association constitutes the _context tree_. MAGMA-Lisp provides primitives to extend and/or contract the context tree and to switch control from one context to another.
+MAGMA-Lisp allows associating each branch of the search tree to a conceptually indipendent computation environment (_context_), so that each alternative can be explored in any order and with no conflicts with the others: control can be suspended in any context and resumed in another, and state modifications are local to each context. This dynamic association constitutes the _context tree_. MAGMA-Lisp provides primitives to extend and/or contract the context tree and to switch control from one context to another.
 
 The language and its implementation were first described in [[IJCAI4](#IJCAI4)]. The efficiency of the algorithms implementing the context tree is assessed experimentally in [[ActaInformatica](#ActaInformatica)].
 
