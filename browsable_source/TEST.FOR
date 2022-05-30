@@ -16,7 +16,7 @@
       OUTT1=OUT1
       OUTT2=OUT2
       GOTO 2
-      MAR=MAR+1
+8     MAR=MAR+1
       GOTO (1,2,2,1,1,3,4,2,2,2,1,2,5,5), MAR
       PIPPO = MAR - 1
       WRITE (6,100) PIPPO
