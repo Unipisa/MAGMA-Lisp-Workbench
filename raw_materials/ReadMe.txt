@@ -20,3 +20,7 @@ Aggiornamento del 3 giugno 2021
 Altre funzioni probabilmente relative al GC (scandite il 1 aprile 2021) sono state inserite in raw-material:
 
 MAPCXT, MARVL, MLIFE, MRVL, RVLSC.
+
+Scansioni del 6 giugno 2022.
+
+SCelte in base all'albero di chiamate ottenuto analizzando i file caricati in precedenza. Da controllare la completezza del codice disponibile.
