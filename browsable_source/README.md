@@ -1,3 +1,4 @@
-This folder is for a browsable version of the source code. Source files, with the right extention, have to be accessible through the GitHub web interface, e.g., archives should be decompressed, images should be transcribed, etc.
+This folder present a browsable version of part of the MAGMA-Lisp source code. 
+Only the most interesting part of the code are currently collected here, in two folders devoted respectively to the non deterministic (magmatic) control features and to the garbage collector.
 
-Please refer to the [SWHAPPE](https://github.com/Unipisa/SWHAPPE) guidelines for greater details. 
+In case you want to add to this folder, please refer to the [SWHAPPE](https://github.com/Unipisa/SWHAPPE) guidelines for operating details. 
