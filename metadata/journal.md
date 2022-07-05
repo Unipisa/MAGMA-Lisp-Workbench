@@ -1,6 +1,6 @@
 # MAGMA-Lisp Journal
 
-* **05/2022 to 06/2022** 
+* **04/07/2022** 
   * *Items:* [browsable_source](../browsable_source/) 
   * *Actors:* [Carlo Montangero](../metadata/actors.md#carlo_montangero) 
   * *Description:* Separate folders for the files of the ND features and those for GC.
