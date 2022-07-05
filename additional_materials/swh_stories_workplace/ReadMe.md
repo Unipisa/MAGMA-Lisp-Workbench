@@ -1,6 +1,6 @@
-# SW_NAME SWH-stories workplace
+# MAGMA-Lisp SWH-stories workplace
 
-### This folder provides a template supporting the presentation of the SW_NAME software project in a [SWH-story](https://swh.stories.k2.services/).
+### This folder provides a template supporting the presentation of the MAGMA-Lisp software project in a [SWH-story](https://swh.stories.k2.services/).
 
 The images, videos, documents, etc. to be put in the story should be collected here, divided per *moment*, according to the sub-folder structure.
 
