@@ -1,6 +1,11 @@
 # MAGMA-Lisp Journal
 
 * **05/2022 to 06/2022** 
+  * *Items:* [browsable_source](../browsable_source/) 
+  * *Actors:* [Carlo Montangero](../metadata/actors.md#carlo_montangero) 
+  * *Description:* Separate folders for the files of the ND features and those for GC.
+
+* **05/2022 to 06/2022** 
   * *Items:* [raw_materials](../raw_materials/), [workplace](../workplace/) 
   * *Actors:* [Carlo Montangero](../metadata/actors.md#carlo_montangero) 
   * *Description:* Upload of .jpg files into [raw_materials](../raw_materials/), in an attemp to complete the call tree of INITF (restricted to the ND and GC features). The new folder [googled](../workplace/googled) reflects the intended use of Google Lens to OCR the files. 
