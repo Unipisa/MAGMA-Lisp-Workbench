@@ -5,6 +5,8 @@
   * *Actors:* [Carlo Montangero](../metadata/actors.md#carlo_montangero) 
   * *Description:* Upload of .jpg files into [raw_materials](../raw_materials/), in an attemp to complete the call tree of INITF (restricted to the ND and GC features). The new folder [googled](../workplace/googled) reflects the intended use of Google Lens to OCR the files. 
 
+* ** TO DO: change "./" into "../" in all the entries below, to fix links **
+
 * **12/04/2021 to 02/06/2021** 
   * *Items:* [raw_materials](./raw_materials/), [workplace](./workplace/) 
   * *Actors:* [Guido Scatena](./metadata/actors.md#guido_scatena), [Carlo Montangero](./metadata/actors.md#carlo_montangero) 
