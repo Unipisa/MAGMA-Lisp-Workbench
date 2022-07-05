@@ -1,6 +1,11 @@
 # MAGMA-Lisp Journal
 
 * **05/07/2022** 
+  * *Items:* [metadata](../metadata/) 
+  * *Actors:* [Carlo Montangero](../metadata/actors.md#carlo_montangero) 
+  * *Description:* Almost completed metadata: review choises.
+
+* **05/07/2022** 
   * *Items:* [newItems](../additional_materials/newItems/) 
   * *Actors:* [Carlo Montangero](../metadata/actors.md#carlo_montangero) 
   * *Description:* Deleted pdf files with ":" in the name, since they forbid sync with desktop. Reloaded IJCAI4.
