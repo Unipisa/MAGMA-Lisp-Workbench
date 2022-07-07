@@ -34,7 +34,7 @@ Riscrivendo fun in stile più moderno, trascurando i vincoli imposti dalla natur
                (cond ((eq (car x) 'a) (go l))
                      (t x))))
 
-da cui è piuù facile capire il comportamento : 
+da cui è più facile capire il comportamento : 
      fun mangia tutte le "a" nel suo primo argomento, dopo averne escluso, per ragioni misteriose, il primo elemento.
      Ad ogni passo stampa due volte ciò che resta dell'argomento stesso. In questa prova,
      con argomento (b a b b) stampa  ((A B B) A B B), ((B B) B B) e infine restituisce (B B). Sehr compliziert!
