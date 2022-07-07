@@ -42,6 +42,15 @@ da cui è più facile capire il comportamento :
 Caveat: label e go non sono le primitive della forma prog, non ancora disponibile nell'interprete del 1973, ma funzioni costruite
      con le primitive definite dall'estensione MAGMA, il cui esatto funzionamento va ricostruito. In prima approssimazione
      si può dire che label cattura il blocco di controllo (A-block) all'inizio di fun, e go lo usa per rilanciarne l'esecuzione,
-     tramite una funzione vuota.
-Commento: L'uso di (cons x) come lista di argomenti in apply è misterioso. Inoltre, pare quasi che l'interprete 
+     tramite una funzione vuota. Giusto per confronto, usando prog:
+
+(putdq fun 
+     (lambda (x) 
+          (prog ()
+            l  (setq x (cdr x))
+               (print (cons x x))
+               (cond ((eq (car x) 'a) (go l))
+                     (t x)))))
+
+Commento: L'uso di (cons x) come lista di argomenti in apply in go è misterioso. Inoltre, pare quasi che l'interprete 
      non riconoscesse ancora NIL, visto l'uso di (quote) per esprimerlo.
