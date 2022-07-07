@@ -24,7 +24,7 @@ Domanda: e' un  caso che la label si chiami "a", o e' necessario? Ossia, cambian
 Commento: Il secondo argomento serve solo per introdurre un nome cui associare la label. Per cui direi che si può rinominare.
 Domanda: Cosa ci sta a fare il (getap) a linea 15? Per debug, visto che setdeb è attivo? Il valore viene perso...
 
-Riscritoo in stile più moderno, trascurando i vincoli imposti dalla natura primitiva dell'interprete del 1973, si ha :
+Riscrivendo fun in stile più moderno, trascurando i vincoli imposti dalla natura primitiva dell'interprete del 1973, si ha :
 
 (putdq fun 
      (lambda (x l) 
@@ -42,5 +42,6 @@ da cui è piuù facile capire il comportamento :
 Caveat: label e go non sono le primitive della forma prog, non ancora disponibile nell'interprete del 1973, ma funzioni costruite
      con le primitive definite dall'estensione MAGMA, il cui esatto funzionamento va ricostruito. In prima approssimazione
      si può dire che label cattura il blocco di controllo (A-block) all'inizio di fun, e go lo usa per rilanciarne l'esecuzione,
-     tramite una funzione vuota (l'uso di (cons x) come lista di argomenti in apply è misterioso. Inoltre, pare quasi che l'interprete 
-     non riconoscesse ancora NIL, visto l'uso di (quote) per esprimerlo)
+     tramite una funzione vuota.
+Commento: L'uso di (cons x) come lista di argomenti in apply è misterioso. Inoltre, pare quasi che l'interprete 
+     non riconoscesse ancora NIL, visto l'uso di (quote) per esprimerlo.
