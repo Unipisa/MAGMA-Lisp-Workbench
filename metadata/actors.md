@@ -36,7 +36,7 @@
   * *Roles:* Collector, Curator
 * # Elisabetta Mori
   * *Affiliation*
-     * *Current:* [???](???), [???](???)
+     * *Current:* [Archives of IT](https://archivesit.org.uk/)
        * *Email:* <bettygorf@gmail.com>
-       * *Github handle:* [@???](https://github.com/???)
+       * *Github handle:* [@bettygorf](https://github.com/bettygorf)
   * *Roles:* Collector, Curator
