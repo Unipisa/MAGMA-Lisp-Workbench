@@ -1,5 +1,10 @@
 # MAGMA-Lisp Journal
 
+* **12/10/2022** 
+  * *Items:* [metadata](../metadata/) 
+  * *Actors:* [Carlo Montangero](../metadata/actors.md#carlo_montangero) 
+  * *Description:* Completed metadata.
+
 * **05/07/2022** 
   * *Items:* [metadata](../metadata/) 
   * *Actors:* [Carlo Montangero](../metadata/actors.md#carlo_montangero) 
