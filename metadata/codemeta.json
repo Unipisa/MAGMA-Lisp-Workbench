@@ -5,14 +5,14 @@
     "description": "A machine language for Artificial Intelligence applications",
     "applicationCategory" : "Artificial Intelligence",
     "name": "MAGMA-Lisp",
-    "codeRepository":  "https://archive.softwareheritage.org/swh:1:rev:196e9cb81f21f017c10c38600ca954993d44c459;visit=swh:1:snp:0d7839fec015127615a7ad17ce783f395574d4b9",
+    "codeRepository":  "https://archive.softwareheritage.org/swh:1:rev:196e9cb81f21f017c10c38600ca954993d44c459",
     "license": "CC-BY-NC-4.0",
     "version": "v6.0",
     "keywords" : [
         "Extended Lisp Interpreter", 
         "Control regimes programming",
         "Non-deterministic search programming"
-    ],
+    ], 
     "releaseNotes" : "Excerpt from the paper listing dated 15/10/1981",
     "funding" : "Funded by I.E.I of C.N.R. and I.S.I. of Pisa University",
     "runtimePlatform" : "VM/370 v.06",
