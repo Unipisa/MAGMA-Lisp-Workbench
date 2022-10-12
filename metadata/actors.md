@@ -36,7 +36,7 @@
   * *Roles:* Collector, Curator
 * # Elisabetta Mori
   * *Affiliation*
-     * *Current:* [???](???), [???](???)
+     * *Current:* [Software Heritage (viditing scientist)](https://www.softwareheritage.org/)
        * *Email:* <bettygorf@gmail.com>
-       * *Github handle:* [@???](https://github.com/???)
+       * *Github handle:* [@bettygorf](https://github.com/bettygorf)
   * *Roles:* Collector, Curator
