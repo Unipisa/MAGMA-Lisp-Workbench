@@ -35,7 +35,6 @@ CreatorItem: Q108929353
 
 * SW_NAME
   * {Parent: Historical software with a SWH-story}
-  * {}
 
 ## Media gallery moment
 
@@ -122,7 +121,7 @@ Here are the dates of the first and last versions of the codes:
 
 [O.G. Mancino - FORTRAN CEP language](additional-materials/swh_stories_workplace/moment_documents/OGMancinoTechRep1963.pdf)
 
-### Source Code Listin
+### Source Code Listing
 
 [SW_NAME : V2 and V3](additional-materials/swh_stories_workplace/moment_documents/SW_NAME-V2-3.f.pdf)
 
